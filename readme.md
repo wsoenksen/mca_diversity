@@ -1,5 +1,3 @@
-mca_diversity
-
 =============
 
-getusermedia_initial_snapshot - currently in development for personal & non-commercial applications
+getusermedia_webrtc web application - currently in development for personal & non-commercial use
