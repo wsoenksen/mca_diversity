@@ -29,7 +29,7 @@ img {
 /* =============================================== */
 
 .navbar {
-    min-height: 50px;
+    min-height: 70px;
     position: relative;
     z-index: 1000;
     border-bottom: 4px solid #DDDDDD;
@@ -129,6 +129,29 @@ h2:after {
     width: 50%;
 }
 
+h1 {
+	display: inline-block;
+    position: relative;
+	font-family: 'Montserrat', sans-serif;
+    font-size: 128px;
+    font-weight: 500;
+    letter-spacing: 0;
+    margin: 0.5em 0;
+    text-transform: uppercase;
+}
+
+h1:after {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0.3);
+    bottom: -15px;
+    content: "";
+    display: inline-block;
+    height: 2px;
+    left: 25%;
+    opacity: 0.5;
+    position: absolute;
+    width: 50%;
+}
+
 /* =============================================== */
 
 .section-page p { 
@@ -158,7 +181,7 @@ video {
 
 /* =============================================== */
 
-#snap {
+#snap, #save {
 	background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
     -moz-user-select: none;
     border: 1px solid rgba(0, 0, 0, 0);
@@ -180,17 +203,28 @@ video {
     text-transform: uppercase;
     transition: background 0.3s ease-out 0s;
 	font-family: 'Montserrat', sans-serif;
+	margin: 45px 5px 0 5px;
 }
 
-#snap:hover {
+#snap:hover, #save:hover {
     background: none repeat scroll 0 0 rgba(255, 255, 255, 0.1);
     color: #FFFFFF;
 }
 
 /* =============================================== */
 
+.copyright {
+	    font-family: 'Montserrat', sans-serif;
+		font-weight: 400;
+		font-size: 16px;
+		color: #999999;
+}
 
+footer {
+	    border-top: 4px solid #FFF;
+}
 
+	
 
 
 

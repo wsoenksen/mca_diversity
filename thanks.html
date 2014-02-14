@@ -21,19 +21,13 @@
 <section id="section-tagline" class="section-page">
 	<div class="container">
 		<h2>HTML5 - getUserMedia API - Initial Build - Version 2.1</h2>
-		<p>Use the interface located below to take a self portrait!</p>
+		<p>You have completed this survey! </p>
 	</div>
 </section>
 
 <section id="section-content" class="section-page">
 	<div class="container">
-		<video id="video" width="200" height="150" autoplay></video>
-		<canvas id="canvas" width="720" height="540"></canvas>
-		<button id="snap">Snap Photo</button>
-		<button id="save">Save & Continue >></button>
-
-		<script src="js/main.js"></script>
-
+    <h1> Thanks! </h1>
 	</div>
 </section>
 
@@ -50,43 +44,5 @@
 </footer>
 
 		<script>window.jQuery || document.write('<script src="js/assets/jquery-1.10.1.min.js"><\/script>')</script>
-    </body>
-</html>
-				navigator.webkitGetUserMedia(videoObj, function(stream){
-					video.src = window.webkitURL.createObjectURL(stream);
-					video.play();
-				}, errBack);
-			} else if(navigator.mozGetUserMedia) { 
-				navigator.mozGetUserMedia(videoObj, function(stream){
-					video.src = window.URL.createObjectURL(stream);
-					video.play();
-				}, errBack);
-			}
-
-			document.getElementById("snap").addEventListener("click", function() {
-				context.drawImage(video, 0, 0, 720, 540);
-			});
-		}, false);
-</script>
-
-	</div>
-</section>
-
-<section id="section-continue" class="section-page">
-	<div class="container">
-		<a class="slide" href="#">Save your snapshot & continue >></a>
-	</div>
-</section>
-
-<footer id="page-foot">
-	<div class="container">
-		<span class="copyright">© Copyright 2014. William Soenksen</span>
-	</div>
-</footer>
-
-		<script src="//ajax.googleapis.com/ajax<footer>
-ry.min.js"></script>
-		<script>window.jQuery || document.write('<script src="js/assets/jquery-1.10.1.min.js"><\/script>')</script>
-		<script src="js/main.js"></script>
     </body>
 </html>

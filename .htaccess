@@ -1,0 +1,6 @@
+RewriteEngine on
+RewriteBase /mca_diversity/
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}\.html -f
+RewriteRule ^(.*)$ $1.html
+# Replace html with your file extension, eg: php, htm, asp
